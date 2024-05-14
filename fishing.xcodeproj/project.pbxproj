@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDB5FCB2BF3787E00983173 /* fishingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB5FCA2BF3787E00983173 /* fishingApp.swift */; };
+		FDDB5FCD2BF3787E00983173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB5FCC2BF3787E00983173 /* ContentView.swift */; };
+		FDDB5FCF2BF3787F00983173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDB5FCE2BF3787F00983173 /* Assets.xcassets */; };
+		FDDB5FD22BF3787F00983173 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDB5FD12BF3787F00983173 /* Preview Assets.xcassets */; };
+		FDDB5FDC2BF3787F00983173 /* fishingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB5FDB2BF3787F00983173 /* fishingTests.swift */; };
+		FDDB5FE62BF3787F00983173 /* fishingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB5FE52BF3787F00983173 /* fishingUITests.swift */; };
+		FDDB5FE82BF3787F00983173 /* fishingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB5FE72BF3787F00983173 /* fishingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDB5FD82BF3787F00983173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDB5FBF2BF3787E00983173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDB5FC62BF3787E00983173;
+			remoteInfo = fishing;
+		};
+		FDDB5FE22BF3787F00983173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDB5FBF2BF3787E00983173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDB5FC62BF3787E00983173;
+			remoteInfo = fishing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDB5FC72BF3787E00983173 /* fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB5FCA2BF3787E00983173 /* fishingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishingApp.swift; sourceTree = "<group>"; };
+		FDDB5FCC2BF3787E00983173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDB5FCE2BF3787F00983173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDB5FD12BF3787F00983173 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDDB5FD72BF3787F00983173 /* fishingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB5FDB2BF3787F00983173 /* fishingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishingTests.swift; sourceTree = "<group>"; };
+		FDDB5FE12BF3787F00983173 /* fishingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB5FE52BF3787F00983173 /* fishingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishingUITests.swift; sourceTree = "<group>"; };
+		FDDB5FE72BF3787F00983173 /* fishingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDB5FC42BF3787E00983173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FD42BF3787F00983173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FDE2BF3787F00983173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDB5FBE2BF3787E00983173 = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FC92BF3787E00983173 /* fishing */,
+				FDDB5FDA2BF3787F00983173 /* fishingTests */,
+				FDDB5FE42BF3787F00983173 /* fishingUITests */,
+				FDDB5FC82BF3787E00983173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDB5FC82BF3787E00983173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FC72BF3787E00983173 /* fishing.app */,
+				FDDB5FD72BF3787F00983173 /* fishingTests.xctest */,
+				FDDB5FE12BF3787F00983173 /* fishingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDB5FC92BF3787E00983173 /* fishing */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FCA2BF3787E00983173 /* fishingApp.swift */,
+				FDDB5FCC2BF3787E00983173 /* ContentView.swift */,
+				FDDB5FCE2BF3787F00983173 /* Assets.xcassets */,
+				FDDB5FD02BF3787F00983173 /* Preview Content */,
+			);
+			path = fishing;
+			sourceTree = "<group>";
+		};
+		FDDB5FD02BF3787F00983173 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FD12BF3787F00983173 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDDB5FDA2BF3787F00983173 /* fishingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FDB2BF3787F00983173 /* fishingTests.swift */,
+			);
+			path = fishingTests;
+			sourceTree = "<group>";
+		};
+		FDDB5FE42BF3787F00983173 /* fishingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB5FE52BF3787F00983173 /* fishingUITests.swift */,
+				FDDB5FE72BF3787F00983173 /* fishingUITestsLaunchTests.swift */,
+			);
+			path = fishingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDB5FC62BF3787E00983173 /* fishing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB5FEB2BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishing" */;
+			buildPhases = (
+				FDDB5FC32BF3787E00983173 /* Sources */,
+				FDDB5FC42BF3787E00983173 /* Frameworks */,
+				FDDB5FC52BF3787E00983173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishing;
+			productName = fishing;
+			productReference = FDDB5FC72BF3787E00983173 /* fishing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDB5FD62BF3787F00983173 /* fishingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB5FEE2BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishingTests" */;
+			buildPhases = (
+				FDDB5FD32BF3787F00983173 /* Sources */,
+				FDDB5FD42BF3787F00983173 /* Frameworks */,
+				FDDB5FD52BF3787F00983173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDB5FD92BF3787F00983173 /* PBXTargetDependency */,
+			);
+			name = fishingTests;
+			productName = fishingTests;
+			productReference = FDDB5FD72BF3787F00983173 /* fishingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDB5FE02BF3787F00983173 /* fishingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB5FF12BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishingUITests" */;
+			buildPhases = (
+				FDDB5FDD2BF3787F00983173 /* Sources */,
+				FDDB5FDE2BF3787F00983173 /* Frameworks */,
+				FDDB5FDF2BF3787F00983173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDB5FE32BF3787F00983173 /* PBXTargetDependency */,
+			);
+			name = fishingUITests;
+			productName = fishingUITests;
+			productReference = FDDB5FE12BF3787F00983173 /* fishingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDB5FBF2BF3787E00983173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FDDB5FC62BF3787E00983173 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FDDB5FD62BF3787F00983173 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FDDB5FC62BF3787E00983173;
+					};
+					FDDB5FE02BF3787F00983173 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FDDB5FC62BF3787E00983173;
+					};
+				};
+			};
+			buildConfigurationList = FDDB5FC22BF3787E00983173 /* Build configuration list for PBXProject "fishing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDB5FBE2BF3787E00983173;
+			productRefGroup = FDDB5FC82BF3787E00983173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDB5FC62BF3787E00983173 /* fishing */,
+				FDDB5FD62BF3787F00983173 /* fishingTests */,
+				FDDB5FE02BF3787F00983173 /* fishingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDB5FC52BF3787E00983173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB5FD22BF3787F00983173 /* Preview Assets.xcassets in Resources */,
+				FDDB5FCF2BF3787F00983173 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FD52BF3787F00983173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FDF2BF3787F00983173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDB5FC32BF3787E00983173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB5FCD2BF3787E00983173 /* ContentView.swift in Sources */,
+				FDDB5FCB2BF3787E00983173 /* fishingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FD32BF3787F00983173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB5FDC2BF3787F00983173 /* fishingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB5FDD2BF3787F00983173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB5FE62BF3787F00983173 /* fishingUITests.swift in Sources */,
+				FDDB5FE82BF3787F00983173 /* fishingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDB5FD92BF3787F00983173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDB5FC62BF3787E00983173 /* fishing */;
+			targetProxy = FDDB5FD82BF3787F00983173 /* PBXContainerItemProxy */;
+		};
+		FDDB5FE32BF3787F00983173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDB5FC62BF3787E00983173 /* fishing */;
+			targetProxy = FDDB5FE22BF3787F00983173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDDB5FE92BF3787F00983173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDB5FEA2BF3787F00983173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDB5FEC2BF3787F00983173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fishing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDB5FED2BF3787F00983173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fishing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDB5FEF2BF3787F00983173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishing";
+			};
+			name = Debug;
+		};
+		FDDB5FF02BF3787F00983173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishing";
+			};
+			name = Release;
+		};
+		FDDB5FF22BF3787F00983173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishing;
+			};
+			name = Debug;
+		};
+		FDDB5FF32BF3787F00983173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycao.fishingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDB5FC22BF3787E00983173 /* Build configuration list for PBXProject "fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB5FE92BF3787F00983173 /* Debug */,
+				FDDB5FEA2BF3787F00983173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB5FEB2BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB5FEC2BF3787F00983173 /* Debug */,
+				FDDB5FED2BF3787F00983173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB5FEE2BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB5FEF2BF3787F00983173 /* Debug */,
+				FDDB5FF02BF3787F00983173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB5FF12BF3787F00983173 /* Build configuration list for PBXNativeTarget "fishingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB5FF22BF3787F00983173 /* Debug */,
+				FDDB5FF32BF3787F00983173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDB5FBF2BF3787E00983173 /* Project object */;
+}
